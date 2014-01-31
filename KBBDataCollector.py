@@ -105,6 +105,8 @@ class KBBDataCollector:
 
         print "The total elapsed time is " + str(T_ElapsedTime) + " seconds"
 
+        return
+
     def FormatDataIntoCSV(self,ResultDataDict,LocData):
 
         if (ResultDataDict is None) or (LocData is None):
@@ -144,7 +146,7 @@ KBB = KBBDataCollector()
 years = [2013,2012,2010,2009,2008,2007,2006,2005,2004,2003]
 milePerY = 15000
 
-for i in xrange(0,10):
+for i in xrange(1,10):
     sURL = ("http://www.kbb.com/toyota/camry/"+str(years[i])+"-toyota-camry/le-sedan-4d/?"
         +"&intent=trade-in-sell&mileage="+str(milePerY*(i+1))+"&pricetype=private-party&condition=excellent"
         +"&val=b&ref=http%3A%2F%2Fwww.kbb.com%2Ftoyota%2Fcamry%2F2010-toyota-camry%"

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bf54ca-3baa-4eec-96e1-d66823bcd9d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/110CongZipDistrictCode.csv" afterPath="$PROJECT_DIR$/110CongZipDistrictCode.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KBBDataCollector.py" afterPath="$PROJECT_DIR$/KBBDataCollector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Result/Toyota-Camry-2013-15000-ALL-County.csv" afterPath="$PROJECT_DIR$/Result/Toyota-Camry-2013-15000-ALL-County.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="YouCanYouUp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10,7 +12,7 @@
     <file path="/KBB_PriceGrabbing.py" changelist="77bf54ca-3baa-4eec-96e1-d66823bcd9d9" time="1390847244053" ignored="false" />
     <file path="/ZipQue.py" changelist="77bf54ca-3baa-4eec-96e1-d66823bcd9d9" time="1391126424409" ignored="false" />
     <file path="/PriceGrabber.py" changelist="77bf54ca-3baa-4eec-96e1-d66823bcd9d9" time="1391120676365" ignored="false" />
-    <file path="/KBBDataCollector.py" changelist="77bf54ca-3baa-4eec-96e1-d66823bcd9d9" time="1391126561167" ignored="false" />
+    <file path="/KBBDataCollector.py" changelist="77bf54ca-3baa-4eec-96e1-d66823bcd9d9" time="1391128740682" ignored="false" />
     <file path="/CountyList.py" changelist="77bf54ca-3baa-4eec-96e1-d66823bcd9d9" time="1391126430556" ignored="false" />
     <file path="/myOpener.py" changelist="77bf54ca-3baa-4eec-96e1-d66823bcd9d9" time="1391086421838" ignored="false" />
     <file path="/a.dummy" changelist="77bf54ca-3baa-4eec-96e1-d66823bcd9d9" time="1391087813316" ignored="false" />
@@ -35,17 +37,6 @@
     <splitter split-orientation="vertical" split-proportion="0.4943371">
       <split-first>
         <leaf>
-          <file leaf-file-name="PriceGrabber.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PriceGrabber.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="86" column="23" selection-start="2777" selection-end="2777" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#25#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Toyota-Camry-2010-60000-ALL-County.csv" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2010-60000-ALL-County.csv">
               <provider selected="true" editor-type-id="text-editor">
@@ -58,10 +49,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Toyota-Camry-2013-15000-ALL-County.csv" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Toyota-Camry-2013-15000-ALL-County.csv" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2013-15000-ALL-County.csv">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="192" column="28" selection-start="17440" selection-end="17440" vertical-scroll-proportion="0.65384614">
+                <state line="200" column="89" selection-start="18213" selection-end="18213" vertical-scroll-proportion="110.92593">
                   <folding />
                 </state>
               </provider>
@@ -70,27 +61,75 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="110CongZipDistrictCode.csv" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/110CongZipDistrictCode.csv">
+          <file leaf-file-name="Toyota-Camry-2012-30000-ALL-County.csv" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2012-30000-ALL-County.csv">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1260" column="7" selection-start="12609" selection-end="12614" vertical-scroll-proportion="0.0">
+                <state line="2" column="0" selection-start="321" selection-end="321" vertical-scroll-proportion="0.051282052">
                   <folding />
                 </state>
-              </provider>
-              <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-                <state />
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="110BackUp.csv" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/110BackUp.csv">
+          <file leaf-file-name="Toyota-Camry-2010-45000-ALL-County.csv" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2010-45000-ALL-County.csv">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="37509" column="8" selection-start="415119" selection-end="415124" vertical-scroll-proportion="294.49057">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
-              <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-                <state />
+            </entry>
+          </file>
+          <file leaf-file-name="Toyota-Camry-2009-60000-ALL-County.csv" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2009-60000-ALL-County.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Toyota-Camry-2008-75000-ALL-County.csv" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2008-75000-ALL-County.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Toyota-Camry-2007-90000-ALL-County.csv" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2007-90000-ALL-County.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Toyota-Camry-2006-105000-ALL-County.csv" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2006-105000-ALL-County.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Toyota-Camry-2005-120000-ALL-County.csv" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2005-120000-ALL-County.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Toyota-Camry-2004-135000-ALL-County.csv" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2004-135000-ALL-County.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
               </provider>
             </entry>
           </file>
@@ -107,10 +146,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="KBBDataCollector.py" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="KBBDataCollector.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/KBBDataCollector.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="94" column="26" selection-start="3331" selection-end="3331" vertical-scroll-proportion="0.6952247">
+                <state line="107" column="14" selection-start="3783" selection-end="3783" vertical-scroll-proportion="0.7050562">
                   <folding>
                     <element signature="e#26#36#0" expanded="true" />
                   </folding>
@@ -157,8 +196,8 @@
         <option value="$PROJECT_DIR$/Result/outputTest.csv" />
         <option value="$PROJECT_DIR$/ZipQue.py" />
         <option value="$PROJECT_DIR$/CountyList.py" />
-        <option value="$PROJECT_DIR$/KBBDataCollector.py" />
         <option value="$PROJECT_DIR$/Result/Toyota-Camry-2013-15000-ALL-County.csv" />
+        <option value="$PROJECT_DIR$/KBBDataCollector.py" />
       </list>
     </option>
   </component>
@@ -439,18 +478,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1080" height="1849" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33172148" sideWeight="0.86770654" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33172148" sideWeight="0.86770654" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39791787" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13229348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13229348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -522,7 +561,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/KBBDataCollector.py</url>
-          <line>115</line>
+          <line>117</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
@@ -540,61 +579,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ZipQue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KBBDataCollector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#26#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipCodeDB_Trimmed.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipcodeDB.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outputTest.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="596" column="0" selection-start="20085" selection-end="20085" vertical-scroll-proportion="0.3323782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="475" column="0" selection-start="17174" selection-end="17174" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/110CongZipDistrictCode.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1260" column="7" selection-start="12609" selection-end="12614" vertical-scroll-proportion="0.0">
@@ -650,23 +634,79 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KBBDataCollector.py">
+    <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2010-45000-ALL-County.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="26" selection-start="3331" selection-end="3331" vertical-scroll-proportion="0.6952247">
-          <folding>
-            <element signature="e#26#36#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2009-60000-ALL-County.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2008-75000-ALL-County.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2007-90000-ALL-County.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2006-105000-ALL-County.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2005-120000-ALL-County.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2004-135000-ALL-County.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2013-15000-ALL-County.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="28" selection-start="17440" selection-end="17440" vertical-scroll-proportion="0.65384614">
+        <state line="200" column="89" selection-start="18213" selection-end="18213" vertical-scroll-proportion="110.92593">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/Toyota-Camry-2012-30000-ALL-County.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="321" selection-end="321" vertical-scroll-proportion="0.051282052">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KBBDataCollector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="14" selection-start="3783" selection-end="3783" vertical-scroll-proportion="0.7050562">
+          <folding>
+            <element signature="e#26#36#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
