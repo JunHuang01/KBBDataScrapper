@@ -61,7 +61,7 @@ class PriceGrabber:
             password = "qwer1234"
             base64string = base64.encodestring('%s:%s' % (username, password)).replace('\n', '')
             req.add_header("Authorization", "Basic %s" % base64string)
-            result = urllib2.urlopen(req)
+            #result = urllib2.urlopen(req)
             #opener.addheaders(headers)
             urllib2.install_opener(opener)
             self.__reobjResponse = urllib2.urlopen(req)
