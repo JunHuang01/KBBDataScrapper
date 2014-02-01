@@ -9,7 +9,7 @@ import time
 
 class KBBDataCollector:
     def __init__(self):
-
+        self.outPutFile = None
         self.__outPutFile = "./Result/testOutput.csv"
         self.__PriceGrabber = PriceGrabber()
         self.__ZipCodeStoreObject = CountyList()
@@ -61,15 +61,13 @@ class KBBDataCollector:
         self.OutputResult = []
         self.OutputResult.append(Result)
 
-        if(len(self.OutputResult) > 100):
-            with open(self.__outPutFile, "a" , 1) as outputFile:
-                writer = csv.writer(outputFile)
-                writer.writerows(self.OutputResult)
+        if self.outPutFile.closed:
+            self.outPutFile =  open(self.__outPutFile, "a" , 1)
+        writer = csv.writer(self.outPutFile)
+        writer.writerows(self.OutputResult)
 
-            outputFile.close()
-            return
-        else:
-            return
+
+
 
     def CollectDataByAllZipcode(self,sURL,query_arg = None):
 
@@ -83,7 +81,7 @@ class KBBDataCollector:
 
         #Write out header of the csv file.
         self.StorePriceData()
-
+        self.outPutFile = open(self.__outPutFile, 'a', 1)
         #Append data to the file
         while(NextLocation):
             startTime = time.time()
@@ -107,6 +105,9 @@ class KBBDataCollector:
             elapsedTime = time.time() - startTime
 
             print elapsedTime
+        if self.outPutFile is not None:
+            self.outPutFile.close()
+        #self.AppendDataTofile([],True)
         T_ElapsedTime = time.time()- T_StartTime
 
         print "The total elapsed time is " + str(T_ElapsedTime) + " seconds"
@@ -154,9 +155,9 @@ years = [2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003]
 milePerY = 15000
 counter = 1
 for year in years:
-    #if year is 2013 or year is 2012 or year is 2010 or year is 2011:
-    #    counter += 1
-    #    continue
+    if year is 2013 or year is 2012 or year is 2010 or year is 2011:
+        counter += 1
+        continue
     sURL = ("http://www.kbb.com/toyota/camry/"+str(year)+"-toyota-camry/le-sedan-4d/?"
         +"&intent=trade-in-sell&mileage="+str(milePerY*counter)+"&pricetype=private-party&condition=excellent"
         +"&val=b&ref=http%3A%2F%2Fwww.kbb.com%2Ftoyota%2Fcamry%2F2010-toyota-camry%"
