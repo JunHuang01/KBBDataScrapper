@@ -25,11 +25,10 @@ max-tradeinverygood
 The records are very self descriptive, the first 2 column is Zipcode and the formmated locationa data of state name abbreviation concatentated with the 2 digits 110th congressional district code
 
 The rest are self descriptive used car value of the car selling to private party or trade in to store.
-===========
 
 
 For zipCodeDB_Trimmed.csv:
-
+===========
 Data Records: 42,741
 
 Database Fields:
@@ -43,12 +42,8 @@ ZIP_CLASS
 
 Source: http://www.populardata.com/zipcode_database.html
 
-
-===========
-
 110CongZipDistrictCode.csv:
-
-
+===========
 Database Fields:
 StateCode
 ZipCode
